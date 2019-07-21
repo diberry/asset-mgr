@@ -29,15 +29,15 @@ Manage assets and models built from assets for Cognitive Services
       * filename
       * language
       * download URL
-1. Get file list for container by API, include: 
+2. Get file list for container by API, include: 
    * container 
    * filename 
    * language
    * dateCreated
    * dateLastModified
    * public download URL
-1. Transform - translate (and add) text file to Azure Files: track container, filename, language
-1. Transform - text (for language A) to speech (for langauge A)
+3. Transform - translate (and add) text file to Azure Files: track container, filename, language
+4. Transform - text (for language A) to speech (for langauge A)
 
 2019 hackathon #82038
 
