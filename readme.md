@@ -10,34 +10,32 @@ Manage assets and models built from assets for Cognitive Services
 
 ### Goals for One Week
 
-1. Manage text files by UX 
-  * create Azure File container by User
-  * delete Azure File container by User
-  * add file to Azure Files, track 
-      * container
-      * user
-      * filename
-      * language 
-  * delete file by 
-      * container
-      * user
-      * filename
-      * language
-  * list files with
-      * container
-      * user
-      * filename
-      * language
-      * download URL
-2. Get file list for container by API, include: 
-   * container 
-   * filename 
-   * language
-   * dateCreated
-   * dateLastModified
-   * public download URL
-3. Transform - translate (and add) text file to Azure Files: track container, filename, language
-4. Transform - text (for language A) to speech (for langauge A)
+
+#### 1. Manage text files
+
+|Task|UX Status|Backend Status|API|
+|--|--|--|--|
+|create Azure File container by User|-|Complete|-|
+|delete Azure File container by User|-|Complete|-|
+|add file to Azure Files|-|Complete|-|
+|delete file by filename|-|Complete|-|
+|list files|-|partial|-|
+||||
+
+#### 2. Translate
+
+|Task|UX Status|Backend Status|API|
+|--|--|--|--|
+|translate (and add) text file to Azure Files|-|Complete|-|
+||||
+
+
+#### 3. Text to Speech
+
+|Task|UX Status|Backend Status|API|
+|--|--|--|--|
+|translate (and add) text file to Azure Files|-|Complete - English only|-|
+||||
 
 2019 hackathon #82038
 
